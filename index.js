@@ -9,10 +9,10 @@ let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 let cardsEl = document.getElementById("cards-el");
 
-let playerName = "Mike";
+let playerName = "Mike"
 let playerChips = 145;
 let playerEl = document.getElementById("player-el");
-playerEl.textContent = playerName + ": $" + playerChips;
+playerEl.textContent = playerName + "$" + playerChips;
 
 
 function startGame() {
